@@ -1,5 +1,2 @@
-name = "SimpleDump"
-from . import var_dump
-
-__all__ = ['var_dump']
-
+# __init__.py
+from .SimpleDump import var_dump, dd
