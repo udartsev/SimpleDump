@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: SimpleDump
-Version: 0.0.2
+Version: 0.0.4
 Summary: dump functions for debugging Pythone code in PHP-style
 Home-page: https://github.com/udartsev/SimpleDump.git
 Author: Vladimir Udartsev

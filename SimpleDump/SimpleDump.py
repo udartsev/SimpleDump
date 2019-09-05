@@ -5,19 +5,15 @@
 from pprint import pprint
 from inspect import getmembers
 
-__version__ = '0.0.1'
-
-class var_dump():
+class SimpleDump():
     """Creating simple print of objects for better code debugging"""
+
     @staticmethod
-    def var_dump(object, printIt=True):
+    def var_dump(object):
         """Print var data recursevly to console"""
 
         data = getmembers(object)
         results = pprint(data)
-
-        # if printIt is True:
-        #    print(results)
 
         return results
 
