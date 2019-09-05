@@ -1,3 +1,3 @@
 # __init__.py
-from .SimpleDump import *
+from .SimpleDump import var_dump, dump, dd
 
