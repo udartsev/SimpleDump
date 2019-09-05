@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="SimpleDump",
-    version="0.0.9",
+    version="0.1.0",
     author="Vladimir Udartsev",
     author_email="v.udartsev@gmail.com",
     description="dump functions for debugging Pythone code in PHP-style",

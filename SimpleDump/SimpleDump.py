@@ -15,6 +15,11 @@ def var_dump(variable):
     results = pprint(data)
     return results
 
+def dump(variable):
+    """Print var data recursevly to console"""
+    data = getmembers(variable)
+    results = pprint(data)
+    return results
 
 def dd(variable):
     """Print var data recursevly to console and exit program"""
