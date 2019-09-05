@@ -6,3 +6,6 @@ This is a simple package which adds var_dump(), dd() and dump() functions for de
 hen debugging in Python, ypu can frequently find it useful to simply stick a var_dump() in code to show what a variable is, what it`s value is, and the same for anything that it contains.
 
 
+##### Creating PIP package
+`python setup.py sdist bdist_wheel`
+`python -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*`
