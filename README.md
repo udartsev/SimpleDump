@@ -37,7 +37,7 @@ dd(test5) # (object) [('__class__', <class 'dict'>)....
 
 ## Output
 ![Console Output](img/console_output.png) 
-
+![dd() function exit message](img/ddfunction.png) 
 ##### Creating PIP package
 ```bash
 python setup.py sdist bdist_wheel
